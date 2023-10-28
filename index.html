@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Pribadi Raihan Fajari</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+        <style>
+            ul {
+                text-align: left;
+            }
+
+            ul li {
+                list-style-position: outside;
+                margin-left: 20px;
+            }
+
+            .image-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .image-container img {
+                max-width: 300px;
+                max-height: 200px;
+                width: auto;
+                height: auto;
+                margin: 5px;
+            }
+
+            #scrollToTop {
+                display: none;
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                font-size: 24px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <button id="scrollToTop" class="btn btn-primary" onclick="scrollToTop()"><i class="fa fa-arrow-up"></i></button>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <section id="home" style="text-align: center; padding: 100px; height: 100vh; justify-content: center">
+            <div><h2>Raihan Fajari...</h2></div>
+            <br />
+            <div><p>Selamat datang di halaman utama website pribadi saya.</p></div>
+            <div>
+                <img class="rounded-circle" src="https://media.licdn.com/dms/image/D5603AQEZ_WvSt4Bq6Q/profile-displayphoto-shrink_200_200/0/1696567575037?e=1702512000&v=beta&t=Gd-0WzaFuhf3SEcAKmJ24qGKnsi4qqvT4psUnUHJTLs" alt="Foto Home" />
+            </div>
+        </section>
+        <section id="profil" style="height: 100vh; justify-content: center; padding: 100px; margin: auto">
+            <p style="text-align: center">Berikut adalah profil singkat tentang saya:</p>
+            <div class="">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Raihan Fajari</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>25 Oktober 2001</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Jl. Depok Jaya</td>
+                        </tr>
+                        <tr>
+                            <th>Pendidikan</th>
+                            <td>Sarjana Teknik Informatika, Universitas Pamulang</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div style="margin-top: 4em">
+                    <h3>Pengalaman Kerja</h3>
+                    <ol>
+                        <li>Mobile Developer di Perusahaan Sherlock Swiss (Intern) (2018 - 2018)</li>
+                        <li>Back-end Developer di Perusahaan FAN INTEGRASI TEKNOLOGI (2019 - 2021)</li>
+                        <li>Technical Leader di Perusahaan FAN INTEGRASI TEKNOLOGI (2021 - 2023)</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" style="height: 100vh; text-align: center; padding: 100px">
+            <h2>Tentang Saya</h2>
+            <p>Halo, Saya adalah Raihan Fajari, seorang developer yang bersemangat dengan cinta terhadap pemrograman dan membangun aplikasi web. Saya selalu antusias untuk belajar teknologi baru dan menciptakan solusi inovatif. Berikut adalah beberapa hal yang perlu Anda ketahui tentang saya:</p>
+
+            <h3 class="">Kemampuan Saya</h3>
+            <ul>
+                <li>PHP</li>
+                <li>ExpressJs</li>
+                <li>React Js</li>
+                <li>Flutter</li>
+                <li>Golang</li>
+            </ul>
+
+            <h3>Pengalaman Saya</h3>
+            <p>Saya telah bekerja pada berbagai proyek pengembangan web dan memiliki pengalaman dengan berbagai bahasa pemrograman dan teknologi. Saya selalu siap menghadapi tantangan baru dan mendorong batasan dari apa yang mungkin.</p>
+
+            <h3>Minat Saya</h3>
+            <p>Di luar pemrograman, saya adalah penggemar band musik dan senang melakukan traveling. Saya juga adalah pembaca rajin dan senang mengetahui perkembangan teknologi terbaru. Mari kita terhubung dan diskusikan minat bersama!</p>
+        </section>
+
+        <section id="gallery" style="height: 100vh; padding: 100px; text-align: center">
+            <h2>GALLERY:</h2>
+
+            <div class="image-container">
+                <img src="https://media.licdn.com/dms/image/D5603AQEZ_WvSt4Bq6Q/profile-displayphoto-shrink_200_200/0/1696567575037?e=1702512000&v=beta&t=Gd-0WzaFuhf3SEcAKmJ24qGKnsi4qqvT4psUnUHJTLs" alt="Foto 1" />
+                <img width="400px" height="400px" src="https://images.tokopedia.net/img/cache/700/VqbcmM/2023/9/18/8ce5cf33-6420-4f8a-b3bd-b16fa9fb0c79.png" alt="Foto 2" />
+                <img src="https://media.licdn.com/dms/image/D5603AQEZ_WvSt4Bq6Q/profile-displayphoto-shrink_200_200/0/1696567575037?e=1702512000&v=beta&t=Gd-0WzaFuhf3SEcAKmJ24qGKnsi4qqvT4psUnUHJTLs" alt="Foto 1" />
+                <img width="400px" height="400px" src="https://images.tokopedia.net/img/cache/700/VqbcmM/2023/9/18/8ce5cf33-6420-4f8a-b3bd-b16fa9fb0c79.png" alt="Foto 2" />
+                <img src="https://media.licdn.com/dms/image/D5603AQEZ_WvSt4Bq6Q/profile-displayphoto-shrink_200_200/0/1696567575037?e=1702512000&v=beta&t=Gd-0WzaFuhf3SEcAKmJ24qGKnsi4qqvT4psUnUHJTLs" alt="Foto 1" />
+                <img width="400px" height="400px" src="https://images.tokopedia.net/img/cache/700/VqbcmM/2023/9/18/8ce5cf33-6420-4f8a-b3bd-b16fa9fb0c79.png" alt="Foto 2" />
+            </div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/T-B9wepEDrI?si=TeArHKgYNNWqDGYL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <audio controls>
+                <source src="./assets/audio.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="kontak" style="height: 100vh; text-align: center; padding: 100px">
+            <h2>Kontak</h2>
+            <p>Anda dapat menghubungi saya di sini:</p>
+            <div style="width: 300px; height: auto">
+                <ul>
+                    <li style="list-style-position: outside; margin-left: 20px">Email: raihanfajari44@gmail.com</li>
+                    <li style="list-style-position: outside; margin-left: 20px">Telepon: 089628023104</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer style="text-align: center">
+            <p>&copy; 2023 Raihan Fajari</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <script>
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("scrollToTop").style.display = "block";
+                } else {
+                    document.getElementById("scrollToTop").style.display = "none";
+                }
+            }
+
+            function scrollToTop() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+            }
+        </script>
+    </body>
+</html>
